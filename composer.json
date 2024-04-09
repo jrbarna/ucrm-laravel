@@ -1,0 +1,24 @@
+{
+    "name": "jrbarna/ucrm-laravel",
+    "description": "Simple package to interact with the ucrm api",
+    "type": "library",
+    "require": {
+        "laravel/framework": "10"
+    },
+    "require-dev": {
+        "orchestra/testbench": "8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jrbarna\\UcrmLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jrbarna",
+            "email": "jr.barna@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
