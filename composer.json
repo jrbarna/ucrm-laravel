@@ -1,6 +1,6 @@
 {
     "name": "jrbarna/ucrm-laravel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple package to interact with the ucrm api",
     "type": "library",
     "require": {
