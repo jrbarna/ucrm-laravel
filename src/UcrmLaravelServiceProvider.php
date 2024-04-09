@@ -5,7 +5,7 @@ namespace jrbarna\UcrmLaravel;
 use jrbarna\UcrmLaravel\Ucrm;
 use Illuminate\Support\ServiceProvider;
 
-class UispLaravelServiceProvider extends ServiceProvider
+class UcrmLaravelServiceProvider extends ServiceProvider
 {
     public function register()
     {
