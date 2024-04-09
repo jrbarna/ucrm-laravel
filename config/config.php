@@ -7,3 +7,4 @@ return [
     'payment_method' => env('UCRM_PAYMENT_METHOD'),
     'payment_user_id' => env('UCRM_PAYMENT_USER_ID'),
 ];
+
