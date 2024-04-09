@@ -4,7 +4,7 @@
     "description": "Simple package to interact with the ucrm api",
     "type": "library",
     "require": {
-        "laravel/framework": "*"
+        "laravel/framework": "^10"
     },
     "require-dev": {
         "orchestra/testbench": "^8"
