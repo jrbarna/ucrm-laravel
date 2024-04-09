@@ -1,6 +1,5 @@
 <?php
-
-namespace jrbarna\UcrmLaravel;
+namespace Jrbarna\UcrmLaravel;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
