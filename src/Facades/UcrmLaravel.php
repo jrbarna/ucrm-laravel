@@ -1,6 +1,6 @@
 <?php
 
-namespace jrbarna\UcrmLaravel\Facades;
+namespace Jrbarna\UcrmLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
