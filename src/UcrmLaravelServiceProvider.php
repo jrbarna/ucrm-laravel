@@ -1,8 +1,8 @@
 <?php
 
-namespace jrbarna\UcrmLaravel;
+namespace Jrbarna\UcrmLaravel;
 
-use jrbarna\UcrmLaravel\Ucrm;
+use Jrbarna\UcrmLaravel\Ucrm;
 use Illuminate\Support\ServiceProvider;
 
 class UcrmLaravelServiceProvider extends ServiceProvider
