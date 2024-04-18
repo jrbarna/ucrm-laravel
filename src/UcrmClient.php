@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
 
-class Ucrm {
+class UcrmClient {
     
     private string $url, $token;
     // private string $order = 'createdAt';

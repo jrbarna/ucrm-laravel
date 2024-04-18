@@ -1,18 +1,27 @@
 {
     "name": "jrbarna/ucrm-laravel",
-    "version": "1.0.1",
     "description": "Simple package to interact with the ucrm api",
     "type": "library",
     "require": {
-        "laravel/framework": "^10"
+        "laravel/framework": ">=10"
     },
     "require-dev": {
-        "orchestra/testbench": "^8"
+        "orchestra/testbench": ">=9"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Jrbarna\\UcrmLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jrbarna\\UcrmLaravel\\UcrmLaravelServiceProvider"
+            ],
+            "aliases": {
+                "SimplePayLaravel": "Jrbarna\\UcrmLaravel\\UcrmLaravelFacade"
+            }
         }
     },
     "authors": [
@@ -21,5 +30,5 @@
             "email": "jr.barna@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

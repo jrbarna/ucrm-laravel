@@ -2,7 +2,7 @@
 
 namespace Jrbarna\UcrmLaravel;
 
-use Jrbarna\UcrmLaravel\Ucrm;
+use Jrbarna\UcrmLaravel\UcrmClient;
 use Illuminate\Support\ServiceProvider;
 
 class UcrmLaravelServiceProvider extends ServiceProvider
