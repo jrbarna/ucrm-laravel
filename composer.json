@@ -4,10 +4,10 @@
     "description": "Simple package to interact with the ucrm api",
     "type": "library",
     "require": {
-        "laravel/framework": "^10"
+        "laravel/framework": ">=10"
     },
     "require-dev": {
-        "orchestra/testbench": "^8"
+        "orchestra/testbench": ">=9"
     },
     "license": "MIT",
     "autoload": {
