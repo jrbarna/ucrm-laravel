@@ -1,6 +1,5 @@
 {
     "name": "jrbarna/ucrm-laravel",
-    "version": "1.0.1",
     "description": "Simple package to interact with the ucrm api",
     "type": "library",
     "require": {
@@ -31,5 +30,5 @@
             "email": "jr.barna@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
