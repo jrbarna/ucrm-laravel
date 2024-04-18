@@ -15,6 +15,16 @@
             "Jrbarna\\UcrmLaravel\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jrbarna\\UcrmLaravel\\UcrmLaravelServiceProvider"
+            ],
+            "aliases": {
+                "SimplePayLaravel": "Jrbarna\\UcrmLaravel\\UcrmLaravelFacade"
+            }
+        }
+    },
     "authors": [
         {
             "name": "jrbarna",
